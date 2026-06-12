@@ -1,0 +1,35 @@
+
+.contact-page {
+
+  min-height: 90vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background-image:
+  url("https://www.zooplus.co.uk/magazine/wp-content/uploads/2020/08/cute-puppies-playing.webp");
+
+  background-size: cover;
+
+  background-position: center;
+}
+
+.contact-card {
+
+  background: rgba(255,255,255,0.95);
+
+  padding: 50px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  width: 500px;
+}
+
+.contact-card h1 {
+  color: #317cb7;
+}

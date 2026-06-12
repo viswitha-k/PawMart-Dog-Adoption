@@ -1,0 +1,74 @@
+.about-hero {
+  height: 90vh;
+
+  background-image: url(
+    "https://www.guidedogs.org.uk/api/media/v3/assets/blt437ba089a41efe14/bltebdb7658d31cf031/68f77e00d1d5e9187e9b81d1/Golden_puppy_sitting.jpg?format=webp&width=3840&quality=75"
+  );
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-overlay {
+  height: 100%;
+
+  background: rgba(0,0,0,0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-overlay h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.about-content {
+  padding: 60px;
+  text-align: center;
+  background: #eafcff;
+}
+
+.about-content h2 {
+  color: #317cb7;
+}
+.features {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 300px;
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.mission {
+
+  max-width: 1000px;
+
+  margin: 50px auto;
+
+  padding: 40px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 5px 20px
+    rgba(0,0,0,0.08);
+}

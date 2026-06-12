@@ -1,0 +1,28 @@
+.success-page {
+  min-height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align:flex-start;
+
+  padding: 50px;
+  background-image: url(
+    "https://images.theconversation.com/files/625049/original/file-20241010-15-95v3ha.jpg?ixlib=rb-4.1.0&rect=140%2C0%2C2305%2C1536&q=50&auto=format&w=768&h=512&fit=crop&dpr=2"
+  );
+
+   
+
+  
+}
+
+.success-page h1 ,h2 {
+  color: #03045e;
+  font-weight: bolder;
+  margin-bottom: 20px;
+
+  
+}

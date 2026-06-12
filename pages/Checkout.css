@@ -1,0 +1,67 @@
+.empty-checkout{
+  /* min-height:70vh; */
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+
+  justify-content:center;
+  align-items:center;
+
+  gap:20px;
+}
+
+.empty-checkout img{
+  width:400px;
+  border-radius:20px;
+}
+.checkout-form {
+  width: 700px;
+
+  background: rgba(255,255,255,0.95);
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+  padding: 14px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 10px;
+}
+
+.checkout-form button {
+  padding: 14px;
+
+  background: #317cb7;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+.checkout-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-image: url("https://thumbs.dreamstime.com/b/adorable-happy-puppies-running-outdoor-playful-pets-dog-fun-dogs-cute-puppy-grass-nature-366201941.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

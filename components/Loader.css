@@ -1,0 +1,28 @@
+.loader-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+
+  border: 6px solid #ddd;
+  border-top: 6px solid #317CB7;
+
+  border-radius: 50%;
+
+  animation: spin 1s linear infinite;
+
+  margin: auto;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

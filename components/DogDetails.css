@@ -1,0 +1,49 @@
+.details-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.details-container img {
+  width: 450px;
+  border-radius: 20px;
+}
+
+.details-text {
+  flex: 1;
+}
+
+.details-text button {
+  margin-top: 20px;
+
+  padding: 12px 25px;
+
+  border: none;
+
+  background: #317CB7;
+
+  color: white;
+
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+.dog-highlights {
+  display: flex;
+
+  gap: 15px;
+
+  margin: 20px 0;
+
+  flex-wrap: wrap;
+}
+
+.dog-highlights span {
+  background: #c1fdfd;
+
+  padding: 10px 15px;
+
+  border-radius: 20px;
+
+  font-size: 0.9rem;
+}
